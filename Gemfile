@@ -9,6 +9,7 @@ gem 'authlogic'
 gem 'cancan'
 gem 'compass'
 gem 'haml'
+gem 'haml-rails'
 
 group :test do
   # bundler requires these gems while running tests

@@ -54,6 +54,11 @@ GEM
     gherkin (2.4.6)
       json (>= 1.4.6)
     haml (3.1.2)
+    haml-rails (0.3.4)
+      actionpack (~> 3.0)
+      activesupport (~> 3.0)
+      haml (~> 3.0)
+      railties (~> 3.0)
     i18n (0.5.0)
     jquery-rails (1.0.13)
       railties (~> 3.0)
@@ -117,6 +122,7 @@ DEPENDENCIES
   cucumber
   faker
   haml
+  haml-rails
   jquery-rails
   machinist
   mysql2 (~> 0.2.6)
