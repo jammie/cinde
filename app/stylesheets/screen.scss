@@ -11,3 +11,62 @@
 @import "partials/page";
 @import "partials/form";
 @import "partials/two_col";
+
+body.bp {
+  @include blueprint-typography(true);
+  @include blueprint-utilities;
+  @include blueprint-debug;
+  @include blueprint-interaction;
+//  @include showgrid;
+
+  #nav {
+    @include column(24,true);
+  };
+
+  #header, #container {
+    @include prepend(1); 
+    @include prepend-top(20px);
+    @include append-bottom(20px);
+  };
+
+  #header, #footer {
+    @include append(1);
+    text-align : right;
+  };
+
+  #navigation, #footer {
+    @include prepend-top(5px);
+  };
+
+  #navigation, #footer, #sub_navigation {
+    padding-left: 5px;
+  };
+
+  #header {
+  };
+
+  #navigation {
+  };
+
+  #sub_navigation {
+    @include background($quiet-color);
+    @include append-bottom(5px);
+    padding-top: 2px;
+    padding-bottom: 2px;
+  };
+
+  #footer {
+  };
+
+  #container {
+    @include span(14,true);
+    @include append(4);
+    text-align : left;
+
+    #google-ads-space{
+      @include column(14,true);
+    };
+  };
+}
+
+
