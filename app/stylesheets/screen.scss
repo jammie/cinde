@@ -19,10 +19,6 @@ body.bp {
   @include blueprint-interaction;
 //  @include showgrid;
 
-  #nav {
-    @include column(24,true);
-  };
-
   #header, #container {
     @include prepend(1); 
     @include prepend-top(20px);
@@ -59,7 +55,7 @@ body.bp {
   };
 
   #container {
-    @include span(14,true);
+    @include span(20,true);
     @include append(4);
     text-align : left;
 
