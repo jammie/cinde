@@ -58,10 +58,6 @@ body.bp {
     @include span(20,true);
     @include append(4);
     text-align : left;
-
-    #google-ads-space{
-      @include column(14,true);
-    };
   };
 }
 
