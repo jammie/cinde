@@ -17,48 +17,79 @@ body.bp {
   @include blueprint-utilities;
   @include blueprint-debug;
   @include blueprint-interaction;
-//  @include showgrid;
+  //@include showgrid;
+
+  fieldset {
+	  width: auto;
+	  padding: 20px;
+	  border: 1px #eee solid;
+	  background-color:	#eee;
+	  -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+	  display: block;
+  }
+
+  legend {
+	  color: #444;
+	  font-size: 30px;
+  }
+
+  ul.login {
+    list-style: none;
+    padding-left: 60px;
+  }
+
+  #login_box {
+    @include prepend-top(250px);
+    @include append(8);
+    @include prepend(8);
+    @include column(8);
+  }
 
   #header, #container {
     @include prepend(1); 
     @include prepend-top(20px);
     @include append-bottom(20px);
-  };
+  }
 
   #header, #footer {
     @include append(1);
     text-align : right;
-  };
+  }
 
   #navigation, #footer {
     @include prepend-top(5px);
-  };
+  }
 
   #navigation, #footer, #sub_navigation {
     padding-left: 5px;
-  };
+  }
 
   #header {
-  };
+  }
 
   #navigation {
-  };
+  }
 
   #sub_navigation {
     @include background($quiet-color);
     @include append-bottom(5px);
     padding-top: 2px;
     padding-bottom: 2px;
-  };
+  }
 
   #footer {
-  };
+  }
 
   #container {
     @include span(20,true);
     @include append(4);
     text-align : left;
-  };
+
+    #google-ads-space{
+      @include column(14,true);
+    }
+  }
 }
 
 
