@@ -61,57 +61,60 @@ body.login {
 body.bp {
 
   .tabs { 
-	  border-bottom:2px #66cccc solid;
-	  height:auto; 
-	  margin:0;
-	  overflow:auto;
-	  padding-left:0; 
+	  border-bottom: 2px #66cccc solid;
+	  height: auto; 
+	  margin: 0;
+	  overflow: auto;
+	  padding-left: 0; 
+
+    li {
+      border: 1px solid #ccc;
+      border-bottom: none;
+      float: left;
+      line-height: 1.5; 
+      list-style-type: none;
+      margin: 0 .25em 0 0;
+      padding: 0;
+
+      a { 
+          background: #ddd;
+          border: 1px solid #eee;
+          border-bottom: none;
+          color: #222;
+          cursor: pointer;
+          float: left;
+          font-weight: bold;       
+      }
+
+      span { 
+        background: #66cccc;
+        border: 1px solid #66cccc;
+        border-bottom: none;
+        color: #fff;
+        cursor: default;
+      }
+
+      span, a {
+        display: block;
+        padding: 2px 2px 0 2px;      
+      }
+
+      a, a:focus, a:hover { 
+        text-decoration: none;
+      }
+
+      a:focus, a:hover { 
+        color: #555;
+        outline: none;
+      }
+
+      a.selected:focus, a.selected:hover { 
+        color: #fafafa;
+      }	
+    }                       
   }
 
   * html .tabs { height:1%; /* fixing IE 6 */ }
-
-  .tabs li {
-    border:1px solid #ccc;
-    border-bottom:none;
-    float:left;
-    line-height:1.5; 
-    list-style-type:none;
-    margin:0 .25em 0 0;
-    padding:0;
-
-      a { 
-	        background:#ddd;
-          border:1px solid #eee;
-          border-bottom:none;
-          color:#222;
-          cursor:pointer;
-          display:block;
-          float:left;
-          font-weight:bold;
-          padding:2px 2px 0 2px;
-
-            .selected { 
-                background:#666;
-                border-bottom:none;
-                color:#fff;
-                cursor:default;
-                padding:2px 2px 0 2px;
-            }        
-        }
-
-        a, a:focus, a:hover { 
-            text-decoration:none;
-        }
-
-        a:focus, a:hover { 
-            color:#555;
-            outline:none;
-        }
-
-        a.selected:focus, a.selected:hover { 
-            color:#fafafa;
-        }	
-  }
       
   #header, #container {
     @include prepend(1); 
