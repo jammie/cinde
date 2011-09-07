@@ -60,6 +60,59 @@ body.login {
 
 body.bp {
 
+  .tabs { 
+	  border-bottom:2px #66cccc solid;
+	  height:auto; 
+	  margin:0;
+	  overflow:auto;
+	  padding-left:0; 
+  }
+
+  * html .tabs { height:1%; /* fixing IE 6 */ }
+
+  .tabs li {
+    border:1px solid #ccc;
+    border-bottom:none;
+    float:left;
+    line-height:1.5; 
+    list-style-type:none;
+    margin:0 .25em 0 0;
+    padding:0;
+  }
+
+  .tabs li a { 
+	  background:#ddd;
+    border:1px solid #eee;
+    border-bottom:none;
+    color:#222;
+    cursor:pointer;
+    display:block;
+    float:left;
+    font-weight:bold;
+    padding:2px 2px 0 2px;
+  }
+
+  .tabs li a.selected { 
+    background:#666;
+    border-bottom:none;
+    color:#fff;
+    cursor:default;
+    padding:2px 2px 0 2px;
+  }
+
+  .tabs li a, .tabs li a:focus, .tabs li a:hover { 
+    text-decoration:none;
+  }
+
+  .tabs li a:focus, .tabs li a:hover { 
+    color:#555;
+    outline:none;
+  }
+
+  .tabs li a.selected:focus, .tabs li a.selected:hover { 
+    color:#fafafa;
+  }	
+      
   #header, #container {
     @include prepend(1); 
     @include prepend-top(20px);
@@ -88,8 +141,12 @@ body.bp {
   #sub_navigation {
     @include background($quiet-color);
     @include append-bottom(5px);
-    padding-top: 2px;
-    padding-bottom: 2px;
+    color: #eee;
+    
+    p {
+      padding-top: 4px;
+      padding-bottom: 4px;
+    }
   }
 
   #footer {

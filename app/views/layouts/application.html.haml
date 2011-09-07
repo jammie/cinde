@@ -16,9 +16,13 @@
       logo goes here
  
     #navigation
-    
+      - tabs_tag :open_tabs => {:class => 'tabs'} do |tab|
+        = tab.home 'Homepage', root_path
+        = tab.user 'User', users_path
+
     #sub_navigation
-   
+      %p The name of current tab is #{current_tab}
+
     #container
       = yield
     
