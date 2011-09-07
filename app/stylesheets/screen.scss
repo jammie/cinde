@@ -78,40 +78,40 @@ body.bp {
     list-style-type:none;
     margin:0 .25em 0 0;
     padding:0;
-  }
 
-  .tabs li a { 
-	  background:#ddd;
-    border:1px solid #eee;
-    border-bottom:none;
-    color:#222;
-    cursor:pointer;
-    display:block;
-    float:left;
-    font-weight:bold;
-    padding:2px 2px 0 2px;
-  }
+      a { 
+	        background:#ddd;
+          border:1px solid #eee;
+          border-bottom:none;
+          color:#222;
+          cursor:pointer;
+          display:block;
+          float:left;
+          font-weight:bold;
+          padding:2px 2px 0 2px;
 
-  .tabs li a.selected { 
-    background:#666;
-    border-bottom:none;
-    color:#fff;
-    cursor:default;
-    padding:2px 2px 0 2px;
-  }
+            .selected { 
+                background:#666;
+                border-bottom:none;
+                color:#fff;
+                cursor:default;
+                padding:2px 2px 0 2px;
+            }        
+        }
 
-  .tabs li a, .tabs li a:focus, .tabs li a:hover { 
-    text-decoration:none;
-  }
+        a, a:focus, a:hover { 
+            text-decoration:none;
+        }
 
-  .tabs li a:focus, .tabs li a:hover { 
-    color:#555;
-    outline:none;
-  }
+        a:focus, a:hover { 
+            color:#555;
+            outline:none;
+        }
 
-  .tabs li a.selected:focus, .tabs li a.selected:hover { 
-    color:#fafafa;
-  }	
+        a.selected:focus, a.selected:hover { 
+            color:#fafafa;
+        }	
+  }
       
   #header, #container {
     @include prepend(1); 

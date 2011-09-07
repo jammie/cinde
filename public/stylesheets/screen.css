@@ -926,7 +926,7 @@ body.bp .tabs li {
   margin: 0 .25em 0 0;
   padding: 0;
 }
-/* line 83, ../../app/stylesheets/screen.scss */
+/* line 82, ../../app/stylesheets/screen.scss */
 body.bp .tabs li a {
   background: #ddd;
   border: 1px solid #eee;
@@ -938,24 +938,24 @@ body.bp .tabs li a {
   font-weight: bold;
   padding: 2px 2px 0 2px;
 }
-/* line 95, ../../app/stylesheets/screen.scss */
-body.bp .tabs li a.selected {
+/* line 93, ../../app/stylesheets/screen.scss */
+body.bp .tabs li a .selected {
   background: #666;
   border-bottom: none;
   color: #fff;
   cursor: default;
   padding: 2px 2px 0 2px;
 }
-/* line 103, ../../app/stylesheets/screen.scss */
+/* line 102, ../../app/stylesheets/screen.scss */
 body.bp .tabs li a, body.bp .tabs li a:focus, body.bp .tabs li a:hover {
   text-decoration: none;
 }
-/* line 107, ../../app/stylesheets/screen.scss */
+/* line 106, ../../app/stylesheets/screen.scss */
 body.bp .tabs li a:focus, body.bp .tabs li a:hover {
   color: #555;
   outline: none;
 }
-/* line 112, ../../app/stylesheets/screen.scss */
+/* line 111, ../../app/stylesheets/screen.scss */
 body.bp .tabs li a.selected:focus, body.bp .tabs li a.selected:hover {
   color: #fafafa;
 }
@@ -989,17 +989,13 @@ body.bp #sub_navigation p {
   padding-top: 4px;
   padding-bottom: 4px;
 }
-/* line 152, ../../app/stylesheets/screen.scss */
-body.bp #footer {
-  border-top: 2px #66cccc solid;
-}
-/* line 156, ../../app/stylesheets/screen.scss */
+/* line 155, ../../app/stylesheets/screen.scss */
 body.bp #container {
   width: 1131.667px !important;
   padding-right: 228.333px;
   text-align: left;
 }
-/* line 161, ../../app/stylesheets/screen.scss */
+/* line 160, ../../app/stylesheets/screen.scss */
 body.bp #container #google-ads-space {
   display: inline;
   float: left;
