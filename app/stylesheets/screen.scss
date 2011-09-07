@@ -23,7 +23,7 @@ body {
 
 body.login {
 
-  fieldset {
+  fieldset, .errorExplanation {
 	  width: auto;
 	  padding: 20px;
 	  border: 2px #66cccc solid;
@@ -52,6 +52,7 @@ body.login {
     .login_button {
       @include button-colors;
       @include button-hover-colors;
+      margin-top: 15px;
       width: 150px;
     }
   }
