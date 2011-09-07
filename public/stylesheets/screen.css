@@ -984,24 +984,46 @@ body.bp #navigation, body.bp #footer, body.bp #sub_navigation {
 body.bp #navigation {
   border-bottom: 2px #66cccc solid;
 }
-/* line 144, ../../app/stylesheets/screen.scss */
+/* line 143, ../../app/stylesheets/screen.scss */
+body.bp #navigation .tabs_section {
+  float: left;
+}
+/* line 147, ../../app/stylesheets/screen.scss */
+body.bp #navigation .logout_section {
+  float: right;
+  margin-right: 15px;
+}
+/* line 151, ../../app/stylesheets/screen.scss */
+body.bp #navigation .logout_section a, body.bp #navigation .logout_section a:visited {
+  text-decoration: none;
+  color: #666;
+}
+/* line 156, ../../app/stylesheets/screen.scss */
+body.bp #navigation .logout_section a:hover {
+  color: #66cccc;
+}
+/* line 162, ../../app/stylesheets/screen.scss */
+body.bp .clear {
+  float: clear-both;
+}
+/* line 164, ../../app/stylesheets/screen.scss */
 body.bp #sub_navigation {
   background: #666666;
   margin-bottom: 5px;
   color: #eee;
 }
-/* line 149, ../../app/stylesheets/screen.scss */
+/* line 169, ../../app/stylesheets/screen.scss */
 body.bp #sub_navigation p {
   padding-top: 4px;
   padding-bottom: 4px;
 }
-/* line 158, ../../app/stylesheets/screen.scss */
+/* line 178, ../../app/stylesheets/screen.scss */
 body.bp #container {
   width: 1131.667px !important;
   padding-right: 228.333px;
   text-align: left;
 }
-/* line 163, ../../app/stylesheets/screen.scss */
+/* line 183, ../../app/stylesheets/screen.scss */
 body.bp #container #google-ads-space {
   display: inline;
   float: left;

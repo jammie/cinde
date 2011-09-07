@@ -139,7 +139,27 @@ body.bp {
 
   #navigation {
  	  border-bottom: 2px #66cccc solid;
+
+    .tabs_section {
+      float: left;
+    }
+
+    .logout_section {
+      float: right;
+      margin-right: 15px;
+
+      a, a:visited {
+        text-decoration: none;
+        color: #666;
+      }
+
+      a:hover {
+        color: #66cccc;
+      }
+    }
   }
+
+  .clear { float: clear-both }
 
   #sub_navigation {
     @include background($quiet-color);
