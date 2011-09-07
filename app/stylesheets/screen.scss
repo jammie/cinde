@@ -61,7 +61,6 @@ body.login {
 body.bp {
 
   .tabs { 
-	  border-bottom: 2px #66cccc solid;
 	  height: auto; 
 	  margin: 0;
 	  overflow: auto;
@@ -139,6 +138,7 @@ body.bp {
   }
 
   #navigation {
+ 	  border-bottom: 2px #66cccc solid;
   }
 
   #sub_navigation {
