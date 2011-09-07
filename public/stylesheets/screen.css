@@ -314,19 +314,19 @@ body.bp .showgrid {
   background-position: left top;
 }
 /* line 4, ../../../../.rvm/gems/ruby-1.9.2-p290@rails3/gems/compass-0.11.5/frameworks/blueprint/stylesheets/blueprint/_interaction.scss */
-body.bp .feedback, body.bp .error, body.bp .alert, body.bp .notice, body.bp .success, body.bp .info {
+body.bp .feedback, body.bp .error, body.bp .alert, body.bp .notice, body.bp .success, body.bp .info, body.bp .error, body.bp .alert, body.bp .notice, body.bp .success, body.bp .info {
   padding: 0.8em;
   margin-bottom: 1em;
   border: 2px solid #dddddd;
 }
 /* line 5, ../../../../.rvm/gems/ruby-1.9.2-p290@rails3/gems/compass-0.11.5/frameworks/blueprint/stylesheets/blueprint/_interaction.scss */
-body.bp .error, body.bp .alert {
+body.bp .error, body.bp .alert, body.bp .alert {
   background: #fbe3e4;
   color: #8a1f11;
   border-color: #fbc2c4;
 }
 /* line 27, ../../../../.rvm/gems/ruby-1.9.2-p290@rails3/gems/compass-0.11.5/frameworks/blueprint/stylesheets/blueprint/_interaction.scss */
-body.bp .error a, body.bp .alert a {
+body.bp .error a, body.bp .alert a, body.bp .alert a {
   color: #8a1f11;
 }
 /* line 7, ../../../../.rvm/gems/ruby-1.9.2-p290@rails3/gems/compass-0.11.5/frameworks/blueprint/stylesheets/blueprint/_interaction.scss */
@@ -534,249 +534,249 @@ body.two-col #content {
   overflow-x: hidden;
 }
 
-/* line 15, ../../app/stylesheets/screen.scss */
-body.bp {
+/* line 16, ../../app/stylesheets/screen.scss */
+body {
   line-height: 1.5;
   font-family: "Helvetica Neue", Arial, Helvetica, sans-serif;
   color: #333333;
   font-size: 75%;
 }
 /* line 51, ../../../../.rvm/gems/ruby-1.9.2-p290@rails3/gems/compass-0.11.5/frameworks/blueprint/stylesheets/blueprint/_typography.scss */
-body.bp h1, body.bp h2, body.bp h3, body.bp h4, body.bp h5, body.bp h6 {
+body h1, body h2, body h3, body h4, body h5, body h6 {
   font-weight: normal;
   color: #222222;
 }
 /* line 52, ../../../../.rvm/gems/ruby-1.9.2-p290@rails3/gems/compass-0.11.5/frameworks/blueprint/stylesheets/blueprint/_typography.scss */
-body.bp h1 img, body.bp h2 img, body.bp h3 img, body.bp h4 img, body.bp h5 img, body.bp h6 img {
+body h1 img, body h2 img, body h3 img, body h4 img, body h5 img, body h6 img {
   margin: 0;
 }
 /* line 53, ../../../../.rvm/gems/ruby-1.9.2-p290@rails3/gems/compass-0.11.5/frameworks/blueprint/stylesheets/blueprint/_typography.scss */
-body.bp h1 {
+body h1 {
   font-size: 3em;
   line-height: 1;
   margin-bottom: 0.50em;
 }
 /* line 54, ../../../../.rvm/gems/ruby-1.9.2-p290@rails3/gems/compass-0.11.5/frameworks/blueprint/stylesheets/blueprint/_typography.scss */
-body.bp h2 {
+body h2 {
   font-size: 2em;
   margin-bottom: 0.75em;
 }
 /* line 55, ../../../../.rvm/gems/ruby-1.9.2-p290@rails3/gems/compass-0.11.5/frameworks/blueprint/stylesheets/blueprint/_typography.scss */
-body.bp h3 {
+body h3 {
   font-size: 1.5em;
   line-height: 1;
   margin-bottom: 1.00em;
 }
 /* line 56, ../../../../.rvm/gems/ruby-1.9.2-p290@rails3/gems/compass-0.11.5/frameworks/blueprint/stylesheets/blueprint/_typography.scss */
-body.bp h4 {
+body h4 {
   font-size: 1.2em;
   line-height: 1.25;
   margin-bottom: 1.25em;
 }
 /* line 57, ../../../../.rvm/gems/ruby-1.9.2-p290@rails3/gems/compass-0.11.5/frameworks/blueprint/stylesheets/blueprint/_typography.scss */
-body.bp h5 {
+body h5 {
   font-size: 1em;
   font-weight: bold;
   margin-bottom: 1.50em;
 }
 /* line 58, ../../../../.rvm/gems/ruby-1.9.2-p290@rails3/gems/compass-0.11.5/frameworks/blueprint/stylesheets/blueprint/_typography.scss */
-body.bp h6 {
+body h6 {
   font-size: 1em;
   font-weight: bold;
 }
 /* line 59, ../../../../.rvm/gems/ruby-1.9.2-p290@rails3/gems/compass-0.11.5/frameworks/blueprint/stylesheets/blueprint/_typography.scss */
-body.bp p {
+body p {
   margin: 0 0 1.5em;
 }
 /* line 60, ../../../../.rvm/gems/ruby-1.9.2-p290@rails3/gems/compass-0.11.5/frameworks/blueprint/stylesheets/blueprint/_typography.scss */
-body.bp p .left {
+body p .left {
   display: inline;
   float: left;
   margin: 1.5em 1.5em 1.5em 0;
   padding: 0;
 }
 /* line 61, ../../../../.rvm/gems/ruby-1.9.2-p290@rails3/gems/compass-0.11.5/frameworks/blueprint/stylesheets/blueprint/_typography.scss */
-body.bp p .right {
+body p .right {
   display: inline;
   float: right;
   margin: 1.5em 0 1.5em 1.5em;
   padding: 0;
 }
 /* line 62, ../../../../.rvm/gems/ruby-1.9.2-p290@rails3/gems/compass-0.11.5/frameworks/blueprint/stylesheets/blueprint/_typography.scss */
-body.bp a {
+body a {
   text-decoration: underline;
   color: #0066cc;
 }
 /* line 18, ../../../../.rvm/gems/ruby-1.9.2-p290@rails3/gems/compass-0.11.5/frameworks/compass/stylesheets/compass/typography/links/_link-colors.scss */
-body.bp a:visited {
+body a:visited {
   color: #004c99;
 }
 /* line 21, ../../../../.rvm/gems/ruby-1.9.2-p290@rails3/gems/compass-0.11.5/frameworks/compass/stylesheets/compass/typography/links/_link-colors.scss */
-body.bp a:focus {
+body a:focus {
   color: #0099ff;
 }
 /* line 24, ../../../../.rvm/gems/ruby-1.9.2-p290@rails3/gems/compass-0.11.5/frameworks/compass/stylesheets/compass/typography/links/_link-colors.scss */
-body.bp a:hover {
+body a:hover {
   color: #0099ff;
 }
 /* line 27, ../../../../.rvm/gems/ruby-1.9.2-p290@rails3/gems/compass-0.11.5/frameworks/compass/stylesheets/compass/typography/links/_link-colors.scss */
-body.bp a:active {
+body a:active {
   color: #bf00ff;
 }
 /* line 63, ../../../../.rvm/gems/ruby-1.9.2-p290@rails3/gems/compass-0.11.5/frameworks/blueprint/stylesheets/blueprint/_typography.scss */
-body.bp blockquote {
+body blockquote {
   margin: 1.5em;
   color: #666666;
   font-style: italic;
 }
 /* line 64, ../../../../.rvm/gems/ruby-1.9.2-p290@rails3/gems/compass-0.11.5/frameworks/blueprint/stylesheets/blueprint/_typography.scss */
-body.bp strong, body.bp dfn {
+body strong, body dfn {
   font-weight: bold;
 }
 /* line 65, ../../../../.rvm/gems/ruby-1.9.2-p290@rails3/gems/compass-0.11.5/frameworks/blueprint/stylesheets/blueprint/_typography.scss */
-body.bp em, body.bp dfn {
+body em, body dfn {
   font-style: italic;
 }
 /* line 66, ../../../../.rvm/gems/ruby-1.9.2-p290@rails3/gems/compass-0.11.5/frameworks/blueprint/stylesheets/blueprint/_typography.scss */
-body.bp sup, body.bp sub {
+body sup, body sub {
   line-height: 0;
 }
 /* line 67, ../../../../.rvm/gems/ruby-1.9.2-p290@rails3/gems/compass-0.11.5/frameworks/blueprint/stylesheets/blueprint/_typography.scss */
-body.bp abbr, body.bp acronym {
+body abbr, body acronym {
   border-bottom: 1px dotted #666666;
 }
 /* line 68, ../../../../.rvm/gems/ruby-1.9.2-p290@rails3/gems/compass-0.11.5/frameworks/blueprint/stylesheets/blueprint/_typography.scss */
-body.bp address {
+body address {
   margin: 0 0 1.5em;
   font-style: italic;
 }
 /* line 69, ../../../../.rvm/gems/ruby-1.9.2-p290@rails3/gems/compass-0.11.5/frameworks/blueprint/stylesheets/blueprint/_typography.scss */
-body.bp del {
+body del {
   color: #666666;
 }
 /* line 70, ../../../../.rvm/gems/ruby-1.9.2-p290@rails3/gems/compass-0.11.5/frameworks/blueprint/stylesheets/blueprint/_typography.scss */
-body.bp pre {
+body pre {
   margin: 1.5em 0;
   white-space: pre;
 }
 /* line 71, ../../../../.rvm/gems/ruby-1.9.2-p290@rails3/gems/compass-0.11.5/frameworks/blueprint/stylesheets/blueprint/_typography.scss */
-body.bp pre, body.bp code, body.bp tt {
+body pre, body code, body tt {
   font: 1em "andale mono", "lucida console", monospace;
   line-height: 1.5;
 }
 /* line 72, ../../../../.rvm/gems/ruby-1.9.2-p290@rails3/gems/compass-0.11.5/frameworks/blueprint/stylesheets/blueprint/_typography.scss */
-body.bp li ul, body.bp li ol {
+body li ul, body li ol {
   margin: 0;
 }
 /* line 73, ../../../../.rvm/gems/ruby-1.9.2-p290@rails3/gems/compass-0.11.5/frameworks/blueprint/stylesheets/blueprint/_typography.scss */
-body.bp ul, body.bp ol {
+body ul, body ol {
   margin: 0 1.5em 1.5em 0;
   padding-left: 1.5em;
 }
 /* line 74, ../../../../.rvm/gems/ruby-1.9.2-p290@rails3/gems/compass-0.11.5/frameworks/blueprint/stylesheets/blueprint/_typography.scss */
-body.bp ul {
+body ul {
   list-style-type: disc;
 }
 /* line 75, ../../../../.rvm/gems/ruby-1.9.2-p290@rails3/gems/compass-0.11.5/frameworks/blueprint/stylesheets/blueprint/_typography.scss */
-body.bp ol {
+body ol {
   list-style-type: decimal;
 }
 /* line 76, ../../../../.rvm/gems/ruby-1.9.2-p290@rails3/gems/compass-0.11.5/frameworks/blueprint/stylesheets/blueprint/_typography.scss */
-body.bp dl {
+body dl {
   margin: 0 0 1.5em 0;
 }
 /* line 77, ../../../../.rvm/gems/ruby-1.9.2-p290@rails3/gems/compass-0.11.5/frameworks/blueprint/stylesheets/blueprint/_typography.scss */
-body.bp dl dt {
+body dl dt {
   font-weight: bold;
 }
 /* line 78, ../../../../.rvm/gems/ruby-1.9.2-p290@rails3/gems/compass-0.11.5/frameworks/blueprint/stylesheets/blueprint/_typography.scss */
-body.bp dd {
+body dd {
   margin-left: 1.5em;
 }
 /* line 79, ../../../../.rvm/gems/ruby-1.9.2-p290@rails3/gems/compass-0.11.5/frameworks/blueprint/stylesheets/blueprint/_typography.scss */
-body.bp table {
+body table {
   margin-bottom: 1.4em;
   width: 100%;
 }
 /* line 80, ../../../../.rvm/gems/ruby-1.9.2-p290@rails3/gems/compass-0.11.5/frameworks/blueprint/stylesheets/blueprint/_typography.scss */
-body.bp th {
+body th {
   font-weight: bold;
 }
 /* line 81, ../../../../.rvm/gems/ruby-1.9.2-p290@rails3/gems/compass-0.11.5/frameworks/blueprint/stylesheets/blueprint/_typography.scss */
-body.bp thead th {
+body thead th {
   background: #c3d9ff;
 }
 /* line 82, ../../../../.rvm/gems/ruby-1.9.2-p290@rails3/gems/compass-0.11.5/frameworks/blueprint/stylesheets/blueprint/_typography.scss */
-body.bp th, body.bp td, body.bp caption {
+body th, body td, body caption {
   padding: 4px 10px 4px 5px;
 }
 /* line 85, ../../../../.rvm/gems/ruby-1.9.2-p290@rails3/gems/compass-0.11.5/frameworks/blueprint/stylesheets/blueprint/_typography.scss */
-body.bp table.striped tr:nth-child(even) td, body.bp table tr.even td {
+body table.striped tr:nth-child(even) td, body table tr.even td {
   background: #e5ecf9;
 }
 /* line 86, ../../../../.rvm/gems/ruby-1.9.2-p290@rails3/gems/compass-0.11.5/frameworks/blueprint/stylesheets/blueprint/_typography.scss */
-body.bp tfoot {
+body tfoot {
   font-style: italic;
 }
 /* line 87, ../../../../.rvm/gems/ruby-1.9.2-p290@rails3/gems/compass-0.11.5/frameworks/blueprint/stylesheets/blueprint/_typography.scss */
-body.bp caption {
+body caption {
   background: #eeeeee;
 }
 /* line 88, ../../../../.rvm/gems/ruby-1.9.2-p290@rails3/gems/compass-0.11.5/frameworks/blueprint/stylesheets/blueprint/_typography.scss */
-body.bp .quiet {
+body .quiet {
   color: #666666;
 }
 /* line 89, ../../../../.rvm/gems/ruby-1.9.2-p290@rails3/gems/compass-0.11.5/frameworks/blueprint/stylesheets/blueprint/_typography.scss */
-body.bp .loud {
+body .loud {
   color: #111111;
 }
 /* line 9, ../../../../.rvm/gems/ruby-1.9.2-p290@rails3/gems/compass-0.11.5/frameworks/blueprint/stylesheets/blueprint/_utilities.scss */
-body.bp .clear {
+body .clear {
   clear: both;
 }
 /* line 12, ../../../../.rvm/gems/ruby-1.9.2-p290@rails3/gems/compass-0.11.5/frameworks/blueprint/stylesheets/blueprint/_utilities.scss */
-body.bp .nowrap {
+body .nowrap {
   white-space: nowrap;
 }
 /* line 16, ../../../../.rvm/gems/ruby-1.9.2-p290@rails3/gems/compass-0.11.5/frameworks/blueprint/stylesheets/blueprint/_utilities.scss */
-body.bp .clearfix {
+body .clearfix {
   overflow: hidden;
   *zoom: 1;
 }
 /* line 18, ../../../../.rvm/gems/ruby-1.9.2-p290@rails3/gems/compass-0.11.5/frameworks/blueprint/stylesheets/blueprint/_utilities.scss */
-body.bp .small {
+body .small {
   font-size: 0.8em;
   margin-bottom: 1.875em;
   line-height: 1.875em;
 }
 /* line 22, ../../../../.rvm/gems/ruby-1.9.2-p290@rails3/gems/compass-0.11.5/frameworks/blueprint/stylesheets/blueprint/_utilities.scss */
-body.bp .large {
+body .large {
   font-size: 1.2em;
   line-height: 2.5em;
   margin-bottom: 1.25em;
 }
 /* line 26, ../../../../.rvm/gems/ruby-1.9.2-p290@rails3/gems/compass-0.11.5/frameworks/blueprint/stylesheets/blueprint/_utilities.scss */
-body.bp .first {
+body .first {
   margin-left: 0;
   padding-left: 0;
 }
 /* line 29, ../../../../.rvm/gems/ruby-1.9.2-p290@rails3/gems/compass-0.11.5/frameworks/blueprint/stylesheets/blueprint/_utilities.scss */
-body.bp .last {
+body .last {
   margin-right: 0;
   padding-right: 0;
 }
 /* line 32, ../../../../.rvm/gems/ruby-1.9.2-p290@rails3/gems/compass-0.11.5/frameworks/blueprint/stylesheets/blueprint/_utilities.scss */
-body.bp .top {
+body .top {
   margin-top: 0;
   padding-top: 0;
 }
 /* line 35, ../../../../.rvm/gems/ruby-1.9.2-p290@rails3/gems/compass-0.11.5/frameworks/blueprint/stylesheets/blueprint/_utilities.scss */
-body.bp .bottom {
+body .bottom {
   margin-bottom: 0;
   padding-bottom: 0;
 }
 /* line 25, ../../../../.rvm/gems/ruby-1.9.2-p290@rails3/gems/compass-0.11.5/frameworks/blueprint/stylesheets/blueprint/_debug.scss */
-body.bp .showgrid {
+body .showgrid {
   background-image: -webkit-gradient(linear, 50% 100%, 50% 0%, color-stop(5%, rgba(0, 0, 0, 0.5)), color-stop(5%, rgba(0, 0, 0, 0))), -webkit-gradient(linear, 0% 50%, 1370 50%, color-stop(0%, rgba(0, 0, 0, 0)), color-stop(0%, rgba(100, 100, 225, 0.25)), color-stop(3.437%, rgba(100, 100, 225, 0.25)), color-stop(3.437%, rgba(0, 0, 0, 0)), color-stop(4.167%, rgba(0, 0, 0, 0)), color-stop(4.167%, rgba(100, 100, 225, 0.25)), color-stop(7.603%, rgba(100, 100, 225, 0.25)), color-stop(7.603%, rgba(0, 0, 0, 0)), color-stop(8.333%, rgba(0, 0, 0, 0)), color-stop(8.333%, rgba(100, 100, 225, 0.25)), color-stop(11.77%, rgba(100, 100, 225, 0.25)), color-stop(11.77%, rgba(0, 0, 0, 0)), color-stop(12.5%, rgba(0, 0, 0, 0)), color-stop(12.5%, rgba(100, 100, 225, 0.25)), color-stop(15.937%, rgba(100, 100, 225, 0.25)), color-stop(15.937%, rgba(0, 0, 0, 0)), color-stop(16.667%, rgba(0, 0, 0, 0)), color-stop(16.667%, rgba(100, 100, 225, 0.25)), color-stop(20.103%, rgba(100, 100, 225, 0.25)), color-stop(20.103%, rgba(0, 0, 0, 0)), color-stop(20.833%, rgba(0, 0, 0, 0)), color-stop(20.833%, rgba(100, 100, 225, 0.25)), color-stop(24.27%, rgba(100, 100, 225, 0.25)), color-stop(24.27%, rgba(0, 0, 0, 0)), color-stop(25%, rgba(0, 0, 0, 0)), color-stop(25%, rgba(100, 100, 225, 0.25)), color-stop(28.437%, rgba(100, 100, 225, 0.25)), color-stop(28.437%, rgba(0, 0, 0, 0)), color-stop(29.167%, rgba(0, 0, 0, 0)), color-stop(29.167%, rgba(100, 100, 225, 0.25)), color-stop(32.603%, rgba(100, 100, 225, 0.25)), color-stop(32.603%, rgba(0, 0, 0, 0)), color-stop(33.333%, rgba(0, 0, 0, 0)), color-stop(33.333%, rgba(100, 100, 225, 0.25)), color-stop(36.77%, rgba(100, 100, 225, 0.25)), color-stop(36.77%, rgba(0, 0, 0, 0)), color-stop(37.5%, rgba(0, 0, 0, 0)), color-stop(37.5%, rgba(100, 100, 225, 0.25)), color-stop(40.937%, rgba(100, 100, 225, 0.25)), color-stop(40.937%, rgba(0, 0, 0, 0)), color-stop(41.667%, rgba(0, 0, 0, 0)), color-stop(41.667%, rgba(100, 100, 225, 0.25)), color-stop(45.103%, rgba(100, 100, 225, 0.25)), color-stop(45.103%, rgba(0, 0, 0, 0)), color-stop(45.833%, rgba(0, 0, 0, 0)), color-stop(45.833%, rgba(100, 100, 225, 0.25)), color-stop(49.27%, rgba(100, 100, 225, 0.25)), color-stop(49.27%, rgba(0, 0, 0, 0)), color-stop(50.0%, rgba(0, 0, 0, 0)), color-stop(50%, rgba(100, 100, 225, 0.25)), color-stop(53.437%, rgba(100, 100, 225, 0.25)), color-stop(53.437%, rgba(0, 0, 0, 0)), color-stop(54.167%, rgba(0, 0, 0, 0)), color-stop(54.167%, rgba(100, 100, 225, 0.25)), color-stop(57.603%, rgba(100, 100, 225, 0.25)), color-stop(57.603%, rgba(0, 0, 0, 0)), color-stop(58.333%, rgba(0, 0, 0, 0)), color-stop(58.333%, rgba(100, 100, 225, 0.25)), color-stop(61.77%, rgba(100, 100, 225, 0.25)), color-stop(61.77%, rgba(0, 0, 0, 0)), color-stop(62.5%, rgba(0, 0, 0, 0)), color-stop(62.5%, rgba(100, 100, 225, 0.25)), color-stop(65.937%, rgba(100, 100, 225, 0.25)), color-stop(65.937%, rgba(0, 0, 0, 0)), color-stop(66.667%, rgba(0, 0, 0, 0)), color-stop(66.667%, rgba(100, 100, 225, 0.25)), color-stop(70.103%, rgba(100, 100, 225, 0.25)), color-stop(70.103%, rgba(0, 0, 0, 0)), color-stop(70.833%, rgba(0, 0, 0, 0)), color-stop(70.833%, rgba(100, 100, 225, 0.25)), color-stop(74.27%, rgba(100, 100, 225, 0.25)), color-stop(74.27%, rgba(0, 0, 0, 0)), color-stop(75%, rgba(0, 0, 0, 0)), color-stop(75%, rgba(100, 100, 225, 0.25)), color-stop(78.437%, rgba(100, 100, 225, 0.25)), color-stop(78.437%, rgba(0, 0, 0, 0)), color-stop(79.167%, rgba(0, 0, 0, 0)), color-stop(79.167%, rgba(100, 100, 225, 0.25)), color-stop(82.603%, rgba(100, 100, 225, 0.25)), color-stop(82.603%, rgba(0, 0, 0, 0)), color-stop(83.333%, rgba(0, 0, 0, 0)), color-stop(83.333%, rgba(100, 100, 225, 0.25)), color-stop(86.77%, rgba(100, 100, 225, 0.25)), color-stop(86.77%, rgba(0, 0, 0, 0)), color-stop(87.5%, rgba(0, 0, 0, 0)), color-stop(87.5%, rgba(100, 100, 225, 0.25)), color-stop(90.937%, rgba(100, 100, 225, 0.25)), color-stop(90.937%, rgba(0, 0, 0, 0)), color-stop(91.667%, rgba(0, 0, 0, 0)), color-stop(91.667%, rgba(100, 100, 225, 0.25)), color-stop(95.103%, rgba(100, 100, 225, 0.25)), color-stop(95.103%, rgba(0, 0, 0, 0)), color-stop(95.833%, rgba(0, 0, 0, 0)), color-stop(95.833%, rgba(100, 100, 225, 0.25)), color-stop(99.27%, rgba(100, 100, 225, 0.25)), color-stop(99.27%, rgba(0, 0, 0, 0)), color-stop(100%, rgba(0, 0, 0, 0)));
   background-image: -webkit-linear-gradient(bottom, rgba(0, 0, 0, 0.5) 5%, rgba(0, 0, 0, 0) 5%), -webkit-linear-gradient(left, rgba(0, 0, 0, 0) 0px, rgba(100, 100, 225, 0.25) 0px, rgba(100, 100, 225, 0.25) 47.083px, rgba(0, 0, 0, 0) 47.083px, rgba(0, 0, 0, 0) 57.083px, rgba(100, 100, 225, 0.25) 57.083px, rgba(100, 100, 225, 0.25) 104.167px, rgba(0, 0, 0, 0) 104.167px, rgba(0, 0, 0, 0) 114.167px, rgba(100, 100, 225, 0.25) 114.167px, rgba(100, 100, 225, 0.25) 161.25px, rgba(0, 0, 0, 0) 161.25px, rgba(0, 0, 0, 0) 171.25px, rgba(100, 100, 225, 0.25) 171.25px, rgba(100, 100, 225, 0.25) 218.333px, rgba(0, 0, 0, 0) 218.333px, rgba(0, 0, 0, 0) 228.333px, rgba(100, 100, 225, 0.25) 228.333px, rgba(100, 100, 225, 0.25) 275.417px, rgba(0, 0, 0, 0) 275.417px, rgba(0, 0, 0, 0) 285.417px, rgba(100, 100, 225, 0.25) 285.417px, rgba(100, 100, 225, 0.25) 332.5px, rgba(0, 0, 0, 0) 332.5px, rgba(0, 0, 0, 0) 342.5px, rgba(100, 100, 225, 0.25) 342.5px, rgba(100, 100, 225, 0.25) 389.583px, rgba(0, 0, 0, 0) 389.583px, rgba(0, 0, 0, 0) 399.583px, rgba(100, 100, 225, 0.25) 399.583px, rgba(100, 100, 225, 0.25) 446.667px, rgba(0, 0, 0, 0) 446.667px, rgba(0, 0, 0, 0) 456.667px, rgba(100, 100, 225, 0.25) 456.667px, rgba(100, 100, 225, 0.25) 503.75px, rgba(0, 0, 0, 0) 503.75px, rgba(0, 0, 0, 0) 513.75px, rgba(100, 100, 225, 0.25) 513.75px, rgba(100, 100, 225, 0.25) 560.833px, rgba(0, 0, 0, 0) 560.833px, rgba(0, 0, 0, 0) 570.833px, rgba(100, 100, 225, 0.25) 570.833px, rgba(100, 100, 225, 0.25) 617.917px, rgba(0, 0, 0, 0) 617.917px, rgba(0, 0, 0, 0) 627.917px, rgba(100, 100, 225, 0.25) 627.917px, rgba(100, 100, 225, 0.25) 675.0px, rgba(0, 0, 0, 0) 675.0px, rgba(0, 0, 0, 0) 685.0px, rgba(100, 100, 225, 0.25) 685px, rgba(100, 100, 225, 0.25) 732.083px, rgba(0, 0, 0, 0) 732.083px, rgba(0, 0, 0, 0) 742.083px, rgba(100, 100, 225, 0.25) 742.083px, rgba(100, 100, 225, 0.25) 789.167px, rgba(0, 0, 0, 0) 789.167px, rgba(0, 0, 0, 0) 799.167px, rgba(100, 100, 225, 0.25) 799.167px, rgba(100, 100, 225, 0.25) 846.25px, rgba(0, 0, 0, 0) 846.25px, rgba(0, 0, 0, 0) 856.25px, rgba(100, 100, 225, 0.25) 856.25px, rgba(100, 100, 225, 0.25) 903.333px, rgba(0, 0, 0, 0) 903.333px, rgba(0, 0, 0, 0) 913.333px, rgba(100, 100, 225, 0.25) 913.333px, rgba(100, 100, 225, 0.25) 960.417px, rgba(0, 0, 0, 0) 960.417px, rgba(0, 0, 0, 0) 970.417px, rgba(100, 100, 225, 0.25) 970.417px, rgba(100, 100, 225, 0.25) 1017.5px, rgba(0, 0, 0, 0) 1017.5px, rgba(0, 0, 0, 0) 1027.5px, rgba(100, 100, 225, 0.25) 1027.5px, rgba(100, 100, 225, 0.25) 1074.583px, rgba(0, 0, 0, 0) 1074.583px, rgba(0, 0, 0, 0) 1084.583px, rgba(100, 100, 225, 0.25) 1084.583px, rgba(100, 100, 225, 0.25) 1131.667px, rgba(0, 0, 0, 0) 1131.667px, rgba(0, 0, 0, 0) 1141.667px, rgba(100, 100, 225, 0.25) 1141.667px, rgba(100, 100, 225, 0.25) 1188.75px, rgba(0, 0, 0, 0) 1188.75px, rgba(0, 0, 0, 0) 1198.75px, rgba(100, 100, 225, 0.25) 1198.75px, rgba(100, 100, 225, 0.25) 1245.833px, rgba(0, 0, 0, 0) 1245.833px, rgba(0, 0, 0, 0) 1255.833px, rgba(100, 100, 225, 0.25) 1255.833px, rgba(100, 100, 225, 0.25) 1302.917px, rgba(0, 0, 0, 0) 1302.917px, rgba(0, 0, 0, 0) 1312.917px, rgba(100, 100, 225, 0.25) 1312.917px, rgba(100, 100, 225, 0.25) 1360px, rgba(0, 0, 0, 0) 1360px, rgba(0, 0, 0, 0) 1370px);
   background-image: -moz-linear-gradient(bottom, rgba(0, 0, 0, 0.5) 5%, rgba(0, 0, 0, 0) 5%), -moz-linear-gradient(left, rgba(0, 0, 0, 0) 0px, rgba(100, 100, 225, 0.25) 0px, rgba(100, 100, 225, 0.25) 47.083px, rgba(0, 0, 0, 0) 47.083px, rgba(0, 0, 0, 0) 57.083px, rgba(100, 100, 225, 0.25) 57.083px, rgba(100, 100, 225, 0.25) 104.167px, rgba(0, 0, 0, 0) 104.167px, rgba(0, 0, 0, 0) 114.167px, rgba(100, 100, 225, 0.25) 114.167px, rgba(100, 100, 225, 0.25) 161.25px, rgba(0, 0, 0, 0) 161.25px, rgba(0, 0, 0, 0) 171.25px, rgba(100, 100, 225, 0.25) 171.25px, rgba(100, 100, 225, 0.25) 218.333px, rgba(0, 0, 0, 0) 218.333px, rgba(0, 0, 0, 0) 228.333px, rgba(100, 100, 225, 0.25) 228.333px, rgba(100, 100, 225, 0.25) 275.417px, rgba(0, 0, 0, 0) 275.417px, rgba(0, 0, 0, 0) 285.417px, rgba(100, 100, 225, 0.25) 285.417px, rgba(100, 100, 225, 0.25) 332.5px, rgba(0, 0, 0, 0) 332.5px, rgba(0, 0, 0, 0) 342.5px, rgba(100, 100, 225, 0.25) 342.5px, rgba(100, 100, 225, 0.25) 389.583px, rgba(0, 0, 0, 0) 389.583px, rgba(0, 0, 0, 0) 399.583px, rgba(100, 100, 225, 0.25) 399.583px, rgba(100, 100, 225, 0.25) 446.667px, rgba(0, 0, 0, 0) 446.667px, rgba(0, 0, 0, 0) 456.667px, rgba(100, 100, 225, 0.25) 456.667px, rgba(100, 100, 225, 0.25) 503.75px, rgba(0, 0, 0, 0) 503.75px, rgba(0, 0, 0, 0) 513.75px, rgba(100, 100, 225, 0.25) 513.75px, rgba(100, 100, 225, 0.25) 560.833px, rgba(0, 0, 0, 0) 560.833px, rgba(0, 0, 0, 0) 570.833px, rgba(100, 100, 225, 0.25) 570.833px, rgba(100, 100, 225, 0.25) 617.917px, rgba(0, 0, 0, 0) 617.917px, rgba(0, 0, 0, 0) 627.917px, rgba(100, 100, 225, 0.25) 627.917px, rgba(100, 100, 225, 0.25) 675.0px, rgba(0, 0, 0, 0) 675.0px, rgba(0, 0, 0, 0) 685.0px, rgba(100, 100, 225, 0.25) 685px, rgba(100, 100, 225, 0.25) 732.083px, rgba(0, 0, 0, 0) 732.083px, rgba(0, 0, 0, 0) 742.083px, rgba(100, 100, 225, 0.25) 742.083px, rgba(100, 100, 225, 0.25) 789.167px, rgba(0, 0, 0, 0) 789.167px, rgba(0, 0, 0, 0) 799.167px, rgba(100, 100, 225, 0.25) 799.167px, rgba(100, 100, 225, 0.25) 846.25px, rgba(0, 0, 0, 0) 846.25px, rgba(0, 0, 0, 0) 856.25px, rgba(100, 100, 225, 0.25) 856.25px, rgba(100, 100, 225, 0.25) 903.333px, rgba(0, 0, 0, 0) 903.333px, rgba(0, 0, 0, 0) 913.333px, rgba(100, 100, 225, 0.25) 913.333px, rgba(100, 100, 225, 0.25) 960.417px, rgba(0, 0, 0, 0) 960.417px, rgba(0, 0, 0, 0) 970.417px, rgba(100, 100, 225, 0.25) 970.417px, rgba(100, 100, 225, 0.25) 1017.5px, rgba(0, 0, 0, 0) 1017.5px, rgba(0, 0, 0, 0) 1027.5px, rgba(100, 100, 225, 0.25) 1027.5px, rgba(100, 100, 225, 0.25) 1074.583px, rgba(0, 0, 0, 0) 1074.583px, rgba(0, 0, 0, 0) 1084.583px, rgba(100, 100, 225, 0.25) 1084.583px, rgba(100, 100, 225, 0.25) 1131.667px, rgba(0, 0, 0, 0) 1131.667px, rgba(0, 0, 0, 0) 1141.667px, rgba(100, 100, 225, 0.25) 1141.667px, rgba(100, 100, 225, 0.25) 1188.75px, rgba(0, 0, 0, 0) 1188.75px, rgba(0, 0, 0, 0) 1198.75px, rgba(100, 100, 225, 0.25) 1198.75px, rgba(100, 100, 225, 0.25) 1245.833px, rgba(0, 0, 0, 0) 1245.833px, rgba(0, 0, 0, 0) 1255.833px, rgba(100, 100, 225, 0.25) 1255.833px, rgba(100, 100, 225, 0.25) 1302.917px, rgba(0, 0, 0, 0) 1302.917px, rgba(0, 0, 0, 0) 1312.917px, rgba(100, 100, 225, 0.25) 1312.917px, rgba(100, 100, 225, 0.25) 1360px, rgba(0, 0, 0, 0) 1360px, rgba(0, 0, 0, 0) 1370px);
@@ -790,102 +790,151 @@ body.bp .showgrid {
   background-position: left top;
 }
 /* line 4, ../../../../.rvm/gems/ruby-1.9.2-p290@rails3/gems/compass-0.11.5/frameworks/blueprint/stylesheets/blueprint/_interaction.scss */
-body.bp .feedback, body.bp .error, body.bp .alert, body.bp .notice, body.bp .success, body.bp .info {
+body .feedback, body.bp .error, body.bp .alert, body.bp .notice, body.bp .success, body.bp .info, body .error, body .alert, body .notice, body .success, body .info {
   padding: 0.8em;
   margin-bottom: 1em;
   border: 2px solid #dddddd;
 }
 /* line 5, ../../../../.rvm/gems/ruby-1.9.2-p290@rails3/gems/compass-0.11.5/frameworks/blueprint/stylesheets/blueprint/_interaction.scss */
-body.bp .error, body.bp .alert {
+body .error, body.bp .alert, body .alert {
   background: #fbe3e4;
   color: #8a1f11;
   border-color: #fbc2c4;
 }
 /* line 27, ../../../../.rvm/gems/ruby-1.9.2-p290@rails3/gems/compass-0.11.5/frameworks/blueprint/stylesheets/blueprint/_interaction.scss */
-body.bp .error a, body.bp .alert a {
+body .error a, body.bp .alert a, body .alert a {
   color: #8a1f11;
 }
 /* line 7, ../../../../.rvm/gems/ruby-1.9.2-p290@rails3/gems/compass-0.11.5/frameworks/blueprint/stylesheets/blueprint/_interaction.scss */
-body.bp .notice {
+body .notice {
   background: #fff6bf;
   color: #514721;
   border-color: #ffd324;
 }
 /* line 36, ../../../../.rvm/gems/ruby-1.9.2-p290@rails3/gems/compass-0.11.5/frameworks/blueprint/stylesheets/blueprint/_interaction.scss */
-body.bp .notice a {
+body .notice a {
   color: #514721;
 }
 /* line 8, ../../../../.rvm/gems/ruby-1.9.2-p290@rails3/gems/compass-0.11.5/frameworks/blueprint/stylesheets/blueprint/_interaction.scss */
-body.bp .success {
+body .success {
   background: #e6efc2;
   color: #264409;
   border-color: #c6d880;
 }
 /* line 45, ../../../../.rvm/gems/ruby-1.9.2-p290@rails3/gems/compass-0.11.5/frameworks/blueprint/stylesheets/blueprint/_interaction.scss */
-body.bp .success a {
+body .success a {
   color: #264409;
 }
 /* line 9, ../../../../.rvm/gems/ruby-1.9.2-p290@rails3/gems/compass-0.11.5/frameworks/blueprint/stylesheets/blueprint/_interaction.scss */
-body.bp .info {
+body .info {
   background: #d5edf8;
   color: #205791;
   border-color: #92cae4;
 }
 /* line 54, ../../../../.rvm/gems/ruby-1.9.2-p290@rails3/gems/compass-0.11.5/frameworks/blueprint/stylesheets/blueprint/_interaction.scss */
-body.bp .info a {
+body .info a {
   color: #205791;
 }
 /* line 10, ../../../../.rvm/gems/ruby-1.9.2-p290@rails3/gems/compass-0.11.5/frameworks/blueprint/stylesheets/blueprint/_interaction.scss */
-body.bp .hide {
+body .hide {
   display: none;
 }
 /* line 11, ../../../../.rvm/gems/ruby-1.9.2-p290@rails3/gems/compass-0.11.5/frameworks/blueprint/stylesheets/blueprint/_interaction.scss */
-body.bp .highlight {
+body .highlight {
   background: yellow;
 }
 /* line 12, ../../../../.rvm/gems/ruby-1.9.2-p290@rails3/gems/compass-0.11.5/frameworks/blueprint/stylesheets/blueprint/_interaction.scss */
-body.bp .added {
+body .added {
   background: #006600;
   color: white;
 }
 /* line 13, ../../../../.rvm/gems/ruby-1.9.2-p290@rails3/gems/compass-0.11.5/frameworks/blueprint/stylesheets/blueprint/_interaction.scss */
-body.bp .removed {
+body .removed {
   background: #990000;
   color: white;
 }
-/* line 22, ../../app/stylesheets/screen.scss */
+
+/* line 26, ../../app/stylesheets/screen.scss */
+body.login fieldset {
+  width: auto;
+  padding: 20px;
+  border: 2px #66cccc solid;
+  background-color: #eee;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  display: block;
+}
+/* line 36, ../../app/stylesheets/screen.scss */
+body.login legend {
+  color: #444;
+  font-size: 30px;
+}
+/* line 41, ../../app/stylesheets/screen.scss */
+body.login ul.login {
+  list-style: none;
+  padding-left: 60px;
+}
+/* line 46, ../../app/stylesheets/screen.scss */
+body.login #login_box {
+  margin-top: 250px;
+  padding-right: 456.667px;
+  padding-left: 456.667px;
+  display: inline;
+  float: left;
+  margin-right: 10px;
+  width: 446.667px;
+}
+/* line 147, ../../../../.rvm/gems/ruby-1.9.2-p290@rails3/gems/compass-0.11.5/frameworks/blueprint/stylesheets/blueprint/_grid.scss */
+* html body.login #login_box {
+  overflow-x: hidden;
+}
+/* line 52, ../../app/stylesheets/screen.scss */
+body.login #login_box .login_button {
+  background-color: #f5f5f5;
+  border-color: #eeeeee #dedede #dedede #eeeeee;
+  color: #565656;
+  width: 150px;
+}
+/* line 62, ../../../../.rvm/gems/ruby-1.9.2-p290@rails3/gems/compass-0.11.5/frameworks/blueprint/stylesheets/blueprint/_buttons.scss */
+body.login #login_box .login_button:hover {
+  background-color: #dff4ff;
+  border-color: #d2f1ff #c2e1ef #c2e1ef #d2f1ff;
+  color: #336699;
+}
+
+/* line 62, ../../app/stylesheets/screen.scss */
 body.bp #header, body.bp #container {
   padding-left: 57.083px;
   margin-top: 20px;
   margin-bottom: 20px;
 }
-/* line 28, ../../app/stylesheets/screen.scss */
+/* line 68, ../../app/stylesheets/screen.scss */
 body.bp #header, body.bp #footer {
   padding-right: 57.083px;
   text-align: right;
 }
-/* line 33, ../../app/stylesheets/screen.scss */
+/* line 73, ../../app/stylesheets/screen.scss */
 body.bp #navigation, body.bp #footer {
   margin-top: 5px;
 }
-/* line 37, ../../app/stylesheets/screen.scss */
+/* line 77, ../../app/stylesheets/screen.scss */
 body.bp #navigation, body.bp #footer, body.bp #sub_navigation {
   padding-left: 5px;
 }
-/* line 47, ../../app/stylesheets/screen.scss */
+/* line 87, ../../app/stylesheets/screen.scss */
 body.bp #sub_navigation {
   background: #666666;
   margin-bottom: 5px;
   padding-top: 2px;
   padding-bottom: 2px;
 }
-/* line 57, ../../app/stylesheets/screen.scss */
+/* line 97, ../../app/stylesheets/screen.scss */
 body.bp #container {
   width: 1131.667px !important;
   padding-right: 228.333px;
   text-align: left;
 }
-/* line 62, ../../app/stylesheets/screen.scss */
+/* line 102, ../../app/stylesheets/screen.scss */
 body.bp #container #google-ads-space {
   display: inline;
   float: left;
