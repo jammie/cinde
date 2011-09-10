@@ -855,7 +855,7 @@ body .removed {
 }
 
 /* line 26, ../../app/stylesheets/screen.scss */
-body.login fieldset, body.login .errorExplanation {
+body.login fieldset {
   width: auto;
   padding: 20px;
   border: 2px #66cccc solid;
@@ -875,8 +875,7 @@ body.login ul.login {
   padding-left: 60px;
 }
 /* line 46, ../../app/stylesheets/screen.scss */
-body.login #login_box {
-  margin-top: 250px;
+body.login #notification, body.login #login_box {
   padding-right: 456.667px;
   padding-left: 456.667px;
   display: inline;
@@ -885,10 +884,20 @@ body.login #login_box {
   width: 446.667px;
 }
 /* line 147, ../../../../.rvm/gems/ruby-1.9.2-p290@rails3/gems/compass-0.11.5/frameworks/blueprint/stylesheets/blueprint/_grid.scss */
-* html body.login #login_box {
+* html body.login #notification, * html body.login #login_box {
   overflow-x: hidden;
 }
 /* line 52, ../../app/stylesheets/screen.scss */
+body.login #notification {
+  margin-top: 50px;
+  color: red;
+  position: fixed;
+}
+/* line 58, ../../app/stylesheets/screen.scss */
+body.login #login_box {
+  margin-top: 250px;
+}
+/* line 61, ../../app/stylesheets/screen.scss */
 body.login #login_box .login_button {
   background-color: #f5f5f5;
   border-color: #eeeeee #dedede #dedede #eeeeee;
@@ -903,14 +912,14 @@ body.login #login_box .login_button:hover {
   color: #336699;
 }
 
-/* line 63, ../../app/stylesheets/screen.scss */
+/* line 72, ../../app/stylesheets/screen.scss */
 body.bp .tabs {
   height: auto;
   margin: 0;
   overflow: auto;
   padding-left: 0;
 }
-/* line 69, ../../app/stylesheets/screen.scss */
+/* line 78, ../../app/stylesheets/screen.scss */
 body.bp .tabs li {
   border: 1px solid #ccc;
   border-bottom: none;
@@ -920,7 +929,7 @@ body.bp .tabs li {
   margin: 0 .25em 0 0;
   padding: 0;
 }
-/* line 78, ../../app/stylesheets/screen.scss */
+/* line 87, ../../app/stylesheets/screen.scss */
 body.bp .tabs li a {
   background: #ddd;
   border: 1px solid #eee;
@@ -930,7 +939,7 @@ body.bp .tabs li a {
   float: left;
   font-weight: bold;
 }
-/* line 88, ../../app/stylesheets/screen.scss */
+/* line 97, ../../app/stylesheets/screen.scss */
 body.bp .tabs li span {
   background: #66cccc;
   border: 1px solid #66cccc;
@@ -938,92 +947,92 @@ body.bp .tabs li span {
   color: #fff;
   cursor: default;
 }
-/* line 96, ../../app/stylesheets/screen.scss */
+/* line 105, ../../app/stylesheets/screen.scss */
 body.bp .tabs li span, body.bp .tabs li a {
   display: block;
   padding: 2px 2px 0 2px;
 }
-/* line 101, ../../app/stylesheets/screen.scss */
+/* line 110, ../../app/stylesheets/screen.scss */
 body.bp .tabs li a, body.bp .tabs li a:focus, body.bp .tabs li a:hover {
   text-decoration: none;
 }
-/* line 105, ../../app/stylesheets/screen.scss */
+/* line 114, ../../app/stylesheets/screen.scss */
 body.bp .tabs li a:focus, body.bp .tabs li a:hover {
   color: #555;
   outline: none;
 }
-/* line 110, ../../app/stylesheets/screen.scss */
+/* line 119, ../../app/stylesheets/screen.scss */
 body.bp .tabs li a.selected:focus, body.bp .tabs li a.selected:hover {
   color: #fafafa;
 }
-/* line 116, ../../app/stylesheets/screen.scss */
+/* line 125, ../../app/stylesheets/screen.scss */
 body.bp * html .tabs {
   height: 1%;
   /* fixing IE 6 */
 }
-/* line 118, ../../app/stylesheets/screen.scss */
+/* line 127, ../../app/stylesheets/screen.scss */
 body.bp #header, body.bp #container {
   padding-left: 57.083px;
   margin-top: 20px;
   margin-bottom: 20px;
 }
-/* line 124, ../../app/stylesheets/screen.scss */
+/* line 133, ../../app/stylesheets/screen.scss */
 body.bp #header, body.bp #footer {
   padding-right: 57.083px;
   text-align: right;
 }
-/* line 129, ../../app/stylesheets/screen.scss */
+/* line 138, ../../app/stylesheets/screen.scss */
 body.bp #navigation, body.bp #footer {
   margin-top: 5px;
 }
-/* line 133, ../../app/stylesheets/screen.scss */
+/* line 142, ../../app/stylesheets/screen.scss */
 body.bp #navigation, body.bp #footer, body.bp #sub_navigation {
   padding-left: 5px;
 }
-/* line 140, ../../app/stylesheets/screen.scss */
+/* line 149, ../../app/stylesheets/screen.scss */
 body.bp #navigation {
   border-bottom: 2px #66cccc solid;
 }
-/* line 143, ../../app/stylesheets/screen.scss */
+/* line 152, ../../app/stylesheets/screen.scss */
 body.bp #navigation .tabs_section {
   float: left;
 }
-/* line 147, ../../app/stylesheets/screen.scss */
+/* line 156, ../../app/stylesheets/screen.scss */
 body.bp #navigation .logout_section {
   float: right;
   margin-right: 15px;
 }
-/* line 151, ../../app/stylesheets/screen.scss */
+/* line 160, ../../app/stylesheets/screen.scss */
 body.bp #navigation .logout_section a, body.bp #navigation .logout_section a:visited {
   text-decoration: none;
   color: #666;
 }
-/* line 156, ../../app/stylesheets/screen.scss */
+/* line 165, ../../app/stylesheets/screen.scss */
 body.bp #navigation .logout_section a:hover {
   color: #66cccc;
 }
-/* line 162, ../../app/stylesheets/screen.scss */
+/* line 171, ../../app/stylesheets/screen.scss */
 body.bp .clear {
   float: clear-both;
 }
-/* line 164, ../../app/stylesheets/screen.scss */
+/* line 173, ../../app/stylesheets/screen.scss */
 body.bp #sub_navigation {
   background: #666666;
   margin-bottom: 5px;
   color: #eee;
 }
-/* line 169, ../../app/stylesheets/screen.scss */
+/* line 178, ../../app/stylesheets/screen.scss */
 body.bp #sub_navigation p {
   padding-top: 4px;
   padding-bottom: 4px;
 }
-/* line 178, ../../app/stylesheets/screen.scss */
+/* line 187, ../../app/stylesheets/screen.scss */
 body.bp #container {
   width: 1131.667px !important;
   padding-right: 228.333px;
   text-align: left;
 }
-/* line 183, ../../app/stylesheets/screen.scss */
+/* line 192, ../../app/stylesheets/screen.scss */
 body.bp #container #google-ads-space {
   display: inline;
   float: left;

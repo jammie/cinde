@@ -23,7 +23,7 @@ body {
 
 body.login {
 
-  fieldset, .errorExplanation {
+  fieldset {
 	  width: auto;
 	  padding: 20px;
 	  border: 2px #66cccc solid;
@@ -43,12 +43,21 @@ body.login {
     padding-left: 60px;
   }
 
-  #login_box {
-    @include prepend-top(250px);
+  #notification, #login_box {
     @include append(8);
     @include prepend(8);
     @include column(8);
+  }
 
+  #notification {
+    @include prepend-top(50px);
+    color: red;
+    position:fixed;
+  }
+
+  #login_box {
+    @include prepend-top(250px);
+  
     .login_button {
       @include button-colors;
       @include button-hover-colors;
