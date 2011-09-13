@@ -5,3 +5,4 @@ db/schema.db
 log/*.log
 tmp/
 config/database.yml
+public/stylesheets/screen.css
