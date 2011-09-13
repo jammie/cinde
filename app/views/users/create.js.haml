@@ -8,5 +8,6 @@
   $(".flash_notice").html("#{escape_javascript(flash[:notice])}");
   $(".flash_notice").show(300);
   $(":input:not(input[type=submit])").val("");
-  $(".users_list table tbody").append("<tr><td>#{escape_javascript(@user.login)}</td><td>#{escape_javascript(@user.email)}</td><td><a href='/users/#{escape_javascript(@user.id)}/edit' data-remote='true'>Edit</a></td><td><a href='/users/#{escape_javascript(@user.id)}' data-confirm='Are you sure?' data-method='delete' data-remote='true' rel='nofollow'>Destroy</a></td></tr>");
-  if($('.right-on a')).click(){$('.formit').hide()};
+  $(".users_list").html("#{escape_javascript(render(:partial => 'users'))}");
+  
+if($('.right-on a')).click(){$('.formit').hide()};

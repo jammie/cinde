@@ -22,6 +22,7 @@ class UsersController < ApplicationController
     @user = User.new(params[:user])
     if @user.save
       flash[:notice] = "Successfully created User."
+      @users = User.all
     end
   end
 
@@ -33,6 +34,7 @@ class UsersController < ApplicationController
     @user = User.find(params[:id])
     if @user.update_attributes(params[:user])
       flash[:notice] = "Successfully updated User."
+      @users = User.all
     end
   end
 
