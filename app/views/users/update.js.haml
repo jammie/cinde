@@ -1,7 +1,8 @@
 - if @user.errors.any?
   $(".flash_notice").hide(300);
-  $(".user_errors").html("#{escape_javascript(error_messages_for(@post))}");
+  $(".user_errors").html("#{escape_javascript(error_messages_for(@user))}");
   $(".user_errors").show(300);
+  $('.user_errors').delay(2000).fadeOut('slow');
 - else
   $(".user_errors").hide(300);
   $(".flash_notice").html("#{escape_javascript(flash[:notice])}");
