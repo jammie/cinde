@@ -913,13 +913,17 @@ body.login #login_box .login_button:hover {
 }
 
 /* line 72, ../../app/stylesheets/screen.scss */
+body.bp .post_errors, body.bp .flash_notice {
+  display: none;
+}
+/* line 76, ../../app/stylesheets/screen.scss */
 body.bp .tabs {
   height: auto;
   margin: 0;
   overflow: auto;
   padding-left: 0;
 }
-/* line 78, ../../app/stylesheets/screen.scss */
+/* line 82, ../../app/stylesheets/screen.scss */
 body.bp .tabs li {
   border: 1px solid #ccc;
   border-bottom: none;
@@ -929,7 +933,7 @@ body.bp .tabs li {
   margin: 0 .25em 0 0;
   padding: 0;
 }
-/* line 87, ../../app/stylesheets/screen.scss */
+/* line 91, ../../app/stylesheets/screen.scss */
 body.bp .tabs li a {
   background: #ddd;
   border: 1px solid #eee;
@@ -939,7 +943,7 @@ body.bp .tabs li a {
   float: left;
   font-weight: bold;
 }
-/* line 97, ../../app/stylesheets/screen.scss */
+/* line 101, ../../app/stylesheets/screen.scss */
 body.bp .tabs li span {
   background: #66cccc;
   border: 1px solid #66cccc;
@@ -947,92 +951,92 @@ body.bp .tabs li span {
   color: #fff;
   cursor: default;
 }
-/* line 105, ../../app/stylesheets/screen.scss */
+/* line 109, ../../app/stylesheets/screen.scss */
 body.bp .tabs li span, body.bp .tabs li a {
   display: block;
   padding: 2px 2px 0 2px;
 }
-/* line 110, ../../app/stylesheets/screen.scss */
+/* line 114, ../../app/stylesheets/screen.scss */
 body.bp .tabs li a, body.bp .tabs li a:focus, body.bp .tabs li a:hover {
   text-decoration: none;
 }
-/* line 114, ../../app/stylesheets/screen.scss */
+/* line 118, ../../app/stylesheets/screen.scss */
 body.bp .tabs li a:focus, body.bp .tabs li a:hover {
   color: #555;
   outline: none;
 }
-/* line 119, ../../app/stylesheets/screen.scss */
+/* line 123, ../../app/stylesheets/screen.scss */
 body.bp .tabs li a.selected:focus, body.bp .tabs li a.selected:hover {
   color: #fafafa;
 }
-/* line 125, ../../app/stylesheets/screen.scss */
+/* line 129, ../../app/stylesheets/screen.scss */
 body.bp * html .tabs {
   height: 1%;
   /* fixing IE 6 */
 }
-/* line 127, ../../app/stylesheets/screen.scss */
+/* line 131, ../../app/stylesheets/screen.scss */
 body.bp #header, body.bp #container {
   padding-left: 57.083px;
   margin-top: 20px;
   margin-bottom: 20px;
 }
-/* line 133, ../../app/stylesheets/screen.scss */
+/* line 137, ../../app/stylesheets/screen.scss */
 body.bp #header, body.bp #footer {
   padding-right: 57.083px;
   text-align: right;
 }
-/* line 138, ../../app/stylesheets/screen.scss */
+/* line 142, ../../app/stylesheets/screen.scss */
 body.bp #navigation, body.bp #footer {
   margin-top: 5px;
 }
-/* line 142, ../../app/stylesheets/screen.scss */
+/* line 146, ../../app/stylesheets/screen.scss */
 body.bp #navigation, body.bp #footer, body.bp #sub_navigation {
   padding-left: 5px;
 }
-/* line 149, ../../app/stylesheets/screen.scss */
+/* line 153, ../../app/stylesheets/screen.scss */
 body.bp #navigation {
   border-bottom: 2px #66cccc solid;
 }
-/* line 152, ../../app/stylesheets/screen.scss */
+/* line 156, ../../app/stylesheets/screen.scss */
 body.bp #navigation .tabs_section {
   float: left;
 }
-/* line 156, ../../app/stylesheets/screen.scss */
+/* line 160, ../../app/stylesheets/screen.scss */
 body.bp #navigation .logout_section {
   float: right;
   margin-right: 15px;
 }
-/* line 160, ../../app/stylesheets/screen.scss */
+/* line 164, ../../app/stylesheets/screen.scss */
 body.bp #navigation .logout_section a, body.bp #navigation .logout_section a:visited {
   text-decoration: none;
   color: #666;
 }
-/* line 165, ../../app/stylesheets/screen.scss */
+/* line 169, ../../app/stylesheets/screen.scss */
 body.bp #navigation .logout_section a:hover {
   color: #66cccc;
 }
-/* line 171, ../../app/stylesheets/screen.scss */
+/* line 175, ../../app/stylesheets/screen.scss */
 body.bp .clear {
   float: clear-both;
 }
-/* line 173, ../../app/stylesheets/screen.scss */
+/* line 177, ../../app/stylesheets/screen.scss */
 body.bp #sub_navigation {
   background: #666666;
   margin-bottom: 5px;
   color: #eee;
 }
-/* line 178, ../../app/stylesheets/screen.scss */
+/* line 182, ../../app/stylesheets/screen.scss */
 body.bp #sub_navigation p {
   padding-top: 4px;
   padding-bottom: 4px;
 }
-/* line 187, ../../app/stylesheets/screen.scss */
+/* line 191, ../../app/stylesheets/screen.scss */
 body.bp #container {
   width: 1131.667px !important;
   padding-right: 228.333px;
   text-align: left;
 }
-/* line 192, ../../app/stylesheets/screen.scss */
+/* line 196, ../../app/stylesheets/screen.scss */
 body.bp #container #google-ads-space {
   display: inline;
   float: left;

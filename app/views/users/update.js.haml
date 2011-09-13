@@ -1,0 +1,10 @@
+- if @user.errors.any?
+  $(".flash_notice").hide(300);
+  $(".user_errors").html("#{escape_javascript(error_messages_for(@post))}");
+  $(".user_errors").show(300);
+- else
+  $(".user_errors").hide(300);
+  $(".flash_notice").html("#{escape_javascript(flash[:notice])}");
+  $(".flash_notice").show(300);
+  $(":input:not(input[type=submit])").val("");
+  $(".users_list").html("#{escape_javascript(render(:partial => 'users'))}");

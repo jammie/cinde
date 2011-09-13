@@ -1,0 +1,16 @@
+%table
+  %tbody
+    %tr
+      %th name
+      %th email
+
+    - @users.each do |user|
+      %tr
+        %td
+          = user.login
+        %td
+          = user.email
+        %td
+          = link_to "Edit", edit_user_path(user), :remote => true
+        %td
+          = link_to "Destroy", user, :remote => true, :confirm => 'Are you sure?', :method => :delete
