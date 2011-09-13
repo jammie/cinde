@@ -1,1 +1,2 @@
-if($('.formit').is(':visible')){$('.user_password_field').show()}else{$('.formit').show()};
+$(".user_form").html("#{escape_javascript(render(:partial => 'form'))}");
+$('.formit').show();
