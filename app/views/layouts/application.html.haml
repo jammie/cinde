@@ -25,7 +25,8 @@
       .clear
 
     #sub_navigation
-      %p The name of current tab is #{current_tab}
+      %p
+        = yield :sub_navigation
 
     #container
       .flash_notice

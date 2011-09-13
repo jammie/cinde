@@ -14,5 +14,9 @@
   .field.user_password_field
     = f.label :password_confirmation
     = f.password_field :password_confirmation
+  %br
+  %hr
   .actions
-    = f.submit
+    .right-on
+      = link_to 'Cancel', users_path
+      = f.submit

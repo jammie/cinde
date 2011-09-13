@@ -69,8 +69,21 @@ body.login {
 
 body.bp {
 
-  .post_errors, .flash_notice {
-    display: none;
+  label {
+    display: block;
+  }
+
+  hr {
+    padding: 0;
+  }
+
+  .formit {
+    padding: 30px;
+    background-color: #eee;
+  }
+
+  .right-on {
+    float: right;
   }
 
   .tabs { 
@@ -182,6 +195,11 @@ body.bp {
     p {
       padding-top: 4px;
       padding-bottom: 4px;
+    }
+
+    a {
+      text-decoration: none;
+      color: #eee;
     }
   }
 

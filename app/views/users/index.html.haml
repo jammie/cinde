@@ -1,8 +1,8 @@
-%h1 Users#index
-
-.user_form
+.user_form.formit
   = render :partial => 'form'
 
 .users_list
   = render :partial => 'users'
 
+= content_for :sub_navigation do
+  = link_to 'Add user', new_user_path, :remote => true
