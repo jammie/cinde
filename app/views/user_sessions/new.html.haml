@@ -1,8 +1,8 @@
 = form_for @user_session, :url => {:action => "create"} do |f|
   = f.error_messages
-  
+
+  %h1.box-title Take me in #{image_tag 'right.png'}
   %fieldset
-    %legend Take me in
     %ul.login
       %li
         = f.label "Username"

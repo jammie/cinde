@@ -28,10 +28,10 @@ body.login {
   fieldset {
 	  width: auto;
 	  padding: 20px;
-	  border: 2px #66cccc solid;
-	  background-color:	#F0FFF0;
-	  -moz-border-radius: 5px;
-    -webkit-border-radius: 5px;
+	  border: 2px #666 solid;
+	  background-color:	#666;
+	  -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
 	  display: block;
   }
 
@@ -59,13 +59,22 @@ body.login {
 
   #login_box {
     @include prepend-top(250px);
-  
+    color: #eee;
+
+    input {
+      width: 250px;
+    }
+
     .login_button {
       @include button-colors;
       @include button-hover-colors;
       margin-top: 15px;
-      width: 150px;
+      width: 254px;
     }
+  }
+
+  .box-title {
+    line-height: 0;
   }
 }
 
