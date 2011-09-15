@@ -18,5 +18,5 @@
   %hr
   .actions
     .right-on
-      = link_to 'Cancel', users_path, {:onclick => "$(this).parents('div.user_form').toggle();"}
+      = link_to 'Cancel', users_path, {:onclick => "$(this).parents('div.user_form').slideUp();"}
       = f.submit
