@@ -5,4 +5,5 @@ $(document).ready(function() {
   }
 
   $('.formit').hide();
+  $('.datatables').datatables;
 });

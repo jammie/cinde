@@ -4,7 +4,7 @@ class UsersController < ApplicationController
   set_tab :user
 
   def load
-    @users = User.all
+    @users = User.paginate :page => params[:page], :order => 'updated_at ASC'
     @user = User.new
   end
 
@@ -22,7 +22,7 @@ class UsersController < ApplicationController
     @user = User.new(params[:user])
     if @user.save
       flash[:notice] = "Successfully created User."
-      @users = User.all
+      load
     end
   end
 
@@ -34,13 +34,15 @@ class UsersController < ApplicationController
     @user = User.find(params[:id])
     if @user.update_attributes(params[:user])
       flash[:notice] = "Successfully updated User."
-      @users = User.all
+      load
     end
   end
 
   def destroy
     @user = User.find(params[:id])
-    @user.destroy
-    flash[:notice] = "Successfully destroyed User."
+    if @user.destroy
+      load
+      flash[:notice] = "Successfully destroyed User."
+    end
   end
 end
