@@ -23,11 +23,13 @@ body {
 
 body.login {
 
+  background-color: #F5FFFA;
+
   fieldset {
 	  width: auto;
 	  padding: 20px;
 	  border: 2px #66cccc solid;
-	  background-color:	#eee;
+	  background-color:	#F0FFF0;
 	  -moz-border-radius: 5px;
     -webkit-border-radius: 5px;
 	  display: block;
@@ -79,7 +81,7 @@ body.bp {
 
   .formit {
     padding: 30px;
-    background-color: #eee;
+    background-color: #F5FFFA;
   }
 
   .right-on {
@@ -209,7 +211,7 @@ body.bp {
   #container {
     @include span(20,true);
     @include append(4);
-    text-align : left;
+    text-align: left;
 
     #google-ads-space{
       @include column(14,true);
