@@ -160,8 +160,6 @@ body.bp {
       
   #header, #container {
     @include prepend(1); 
-    @include prepend-top(20px);
-    @include append-bottom(20px);
   }
 
   #header, #footer {
@@ -206,13 +204,8 @@ body.bp {
 
   #sub_navigation {
     @include background($quiet-color);
-    @include append-bottom(5px);
+    padding: 3px;
     color: #eee;
-    
-    p {
-      padding-top: 4px;
-      padding-bottom: 4px;
-    }
 
     a {
       text-decoration: none;
