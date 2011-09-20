@@ -93,6 +93,22 @@ body.bp {
     border-bottom: 1px #E0EEEE solid;
   }
 
+  tbody tr:hover {
+    background: #eee;
+  }
+
+  table {
+    margin-top: 20px;
+  }
+
+  a {
+    text-decoration: none;
+  }
+
+  a:hover {
+    text-decoration: underline;
+  }
+
   .formit {
     padding: 30px;
     background-color: #F5FFFA;
@@ -176,6 +192,8 @@ body.bp {
   }
 
   #header {
+    padding-top: 20px;
+    padding-bottom: 20px;
   }
 
   #navigation {
