@@ -8,12 +8,13 @@
   .field
     = f.label :email
     = f.text_field :email
-  .field.user_password_field
-    = f.label :password
-    = f.password_field :password
-  .field.user_password_field
-    = f.label :password_confirmation
-    = f.password_field :password_confirmation
+  - if @user.new_record?
+    .field.user_password_field
+      = f.label :password
+      = f.password_field :password
+    .field.user_password_field
+      = f.label :password_confirmation
+      = f.password_field :password_confirmation
   %br
   %hr
   .actions
